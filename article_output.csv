@@ -1,0 +1,117 @@
+,entity,text,matches,confidence
+0,LOC,South Bronx,,0.7400338351726532
+1,LOC,Harlem River,,0.8996231555938721
+2,GPE,Manhattan,Lower Manhattan,0.943305253982544
+3,GPE,New York City,,0.9319196144739786
+4,GPE,Bronx,,0.8847280144691467
+5,DATE,September,,
+6,DATE,year,,
+7,ORG,New York Times,,0.9204511443773905
+8,ORG,Police Department,Police Department's,0.9184166491031647
+9,DATE,city year,,
+10,LOC,Lower Manhattan,,0.8106864988803864
+11,ORG,Police Department's,,0.9162152111530304
+12,NORP,Hispanic,,0.0
+13,GPE,United States,,0.805738627910614
+14,TIME,12 hours,,
+15,PERSON,Gola White,,0.731377050280571
+16,DATE,summer,,
+17,DATE,four years,,
+18,PERSON,"nothing,""-",,
+19,ORG,Times,,
+20,DATE,14 precinct year,40th Precinct,
+21,DATE,nine 2015,,
+22,DATE,half year,,
+23,DATE,years,,
+24,PERSON,James Fernandez,Fernandez,0.9997278153896332
+25,PERSON,Hennessy,,0.8828856945037842
+26,PERSON,Fernandez,,0.9940341114997864
+27,DATE,40,,
+28,GPE,New York,,0.9340660870075226
+29,DATE,14 year 83 1991,,
+30,LOC,Lower East Side,,0.7342429955800375
+31,DATE,three years ago,,
+32,ORG,Police Service Area 7,,0.8696966171264648
+33,DATE,August 2015,,
+34,DATE,day,,
+35,DATE,Three days later,,
+36,PERSON,Maria Fernandez,,0.9992245435714722
+37,DATE,10 days first,,
+38,DATE,A week later,,
+39,TIME,911 10:36,,
+40,DATE,months later,months,
+41,GPE,New York 1980s,late 1980s,0.9773999750614166
+42,TIME,Around 6:30 morning,,
+43,PERSON,Sgt,,
+44,PERSON,Michael J. LoPuzzo,,0.9521542489528656
+45,PERSON,"here,""-",,
+46,PERSON,Sergeant LoPuzzo,Sergeant LoPuzzo's,0.8843433558940887
+47,DATE,one day summer,,
+48,DATE,early September,September,
+49,PERSON,Michael R. Bloomberg,,0.9987978140513102
+50,PERSON,Raymond W. Kelly,,0.9731290340423584
+51,DATE,2012,,
+52,DATE,today,,
+53,PERSON,Argenis Rosado,,0.9964336156845093
+54,DATE,2010,,
+55,PERSON,Espada,,0.9892197251319885
+56,ORG,Mott Haven,,0.7992666363716125
+57,DATE,last year,,
+58,DATE,five years,,
+59,ORG,"cloud,""-",,
+60,PERSON,Russell Lewis,,0.9976097643375397
+61,TIME,8 hours,,
+62,TIME,35 minutes,,
+63,PERSON,James P. O'Neill,,0.8630758225917816
+64,DATE,15 years ago,Three days later,
+65,DATE,Last year,last year's,
+66,PERSON,Brian Hennessy,,0.999845951795578
+67,DATE,last January,,
+68,PERSON,O'Neill,,0.9949169158935547
+69,PERSON,Bill de Blasio,,0.9992550611495972
+70,ORG,Courtlandt Avenue East 151st Street,,0.7478105902671814
+71,GPE,Brooklyn Queens,,0.9165529012680054
+72,PRODUCT,300s,,
+73,DATE,four days,four years,
+74,GPE,Staten Island,Staten Island year,0.6786608099937439
+75,GPE,Washington Heights,,0.7147018015384674
+76,GPE,37 Brooklyn,,0.6064699292182922
+77,GPE,Queens 25,,0.9997970461845398
+78,ORG,Precincts,,
+79,PERSON,Michael Palladino,,0.9997921586036682
+80,ORG,Detectives' Endowment Association,,0.8091297745704651
+81,ORG,Details Police Department,,0.7001568078994751
+82,PERSON,Robert K. Boyce,,0.9882759253184
+83,PERSON,Boyce,,0.9777266383171082
+84,ORG,40th Precinct,,
+85,DATE,2015,,
+86,DATE,2001,,
+87,ORG,City Council Freedom Information Law,,0.9469180107116699
+88,GPE,Gramercy Park,,0.6928475201129913
+89,PERSON,Howard Landesberg,,0.9967645704746246
+90,DATE,late 1980s,,
+91,GPE,Staten Island year,,0.830441951751709
+92,GPE,Queens,,0.7487232089042664
+93,GPE,Brooklyn,,0.8751943111419678
+94,DATE,last year's,,
+95,PERSON,Joseph L. Giacalone,,0.9997410972913107
+96,EVENT,Bronx Cold Case Squad,,0.6666126400232315
+97,DATE,last five years,five years,
+98,DATE,ticked year,,
+99,DATE,November,,
+100,PERSON,Patrice O'Shaughnessy,,0.9995989501476288
+101,GPE,Bronx District,,0.5397453010082245
+102,PERSON,Darcel D. Clark,,0.9991554220517477
+103,PERSON,Sergeant LoPuzzo's,,0.5751277804374695
+104,TIME,36 hours,,
+105,NORP,Chinese,,0.0
+106,DATE,months,,
+107,PERSON,Jeff Meenagh,,0.9997894763946533
+108,DATE,October,,
+109,PERSON,Ruben Diaz Jr.,,0.8476930459340414
+110,DATE,"Oct. 20, 2015",,
+111,PERSON,Jerry O'Sullivan,,0.9987067580223083
+112,DATE,two weeks later,,
+113,PERSON,O'Sullivan,,0.9622321724891663
+114,LOC,Rikers Island,,0.6328020095825195
+115,DATE,May,,
