@@ -8,7 +8,7 @@ from fuzzywuzzy import process
 
 
 class ExtractArticleEntities:
-    ''' Extract article entities from a document using natural language processing (NLP) and fuzzy matching.
+    """ Extract article entities from a document using natural language processing (NLP) and fuzzy matching.
 
 Parameters
 
@@ -21,7 +21,7 @@ retrieve Who, What, When, Where entities with entities.www_json
 Non-organised entities with entiities.json
 
 
-'''
+"""
 
     def __init__(self, text):
         self.text = text  # preprocess text at initialisation
@@ -55,10 +55,10 @@ Non-organised entities with entiities.json
         loc_choices = self.entity_df.loc[self.entity_df['entity'] == 'LOC']
         date_choices = self.entity_df.loc[self.entity_df['entity'] == 'DATE']
 
-        def fuzzy_match(row):
+        def fuzzy_match(row, choices):
             '''This function disambiguates entities by looking for maximum three matches with a score of 80 or more
             for each of the entity types. If there is no match, then the function returns None. '''
-            match = process.extract(row["description"], person_choices["description"], limit=3)
+            match = process.extract(row["description"], choices["description"], limit=3)
 
             match = [m[0] for m in match if m[1] > 80 and m[1] != 100]
             if len(match) == 0:
@@ -71,23 +71,23 @@ Non-organised entities with entiities.json
 
             if row['entity'] == 'PERSON':
 
-                self.entity_df.at[i, 'fuzzy_match'] = fuzzy_match(row)
+                self.entity_df.at[i, 'fuzzy_match'] = fuzzy_match(row, person_choices)
             elif row['entity'] == 'ORG':
 
-                self.entity_df.at[i, 'fuzzy_match'] = fuzzy_match(row)
+                self.entity_df.at[i, 'fuzzy_match'] = fuzzy_match(row, org_choices)
             elif row['entity'] == 'GPE':
 
-                self.entity_df.at[i, 'fuzzy_match'] = fuzzy_match(row)
+                self.entity_df.at[i, 'fuzzy_match'] = fuzzy_match(row, where_choices)
 
             elif row['entity'] == 'NORP':
 
-                self.entity_df.at[i, 'fuzzy_match'] = fuzzy_match(row)
+                self.entity_df.at[i, 'fuzzy_match'] = fuzzy_match(row, norp_choices)
             elif row['entity'] == 'LOC':
 
-                self.entity_df.at[i, 'fuzzy_match'] = fuzzy_match(row)
+                self.entity_df.at[i, 'fuzzy_match'] = fuzzy_match(row, loc_choices)
             elif row['entity'] == 'DATE':
 
-                self.entity_df.at[i, 'fuzzy_match'] = fuzzy_match(row)
+                self.entity_df.at[i, 'fuzzy_match'] = fuzzy_match(row, date_choices)
 
         return self.entity_df
 
@@ -116,7 +116,7 @@ Non-organised entities with entiities.json
         pre_text = unicodedata.normalize("NFKD", pre_text)
         # strip punctuation again as some remains in first pass
         pre_text = pre_text.translate(str.maketrans("", "", punctuation))
-        print(pre_text)
+
 
         return pre_text
 
