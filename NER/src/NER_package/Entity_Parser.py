@@ -5,7 +5,6 @@ import spacy
 import unicodedata
 import numpy as np
 import nltk
-from newspaper import Article
 nltk.download('stopwords')
 from string import punctuation
 import json
@@ -14,6 +13,10 @@ from io import BytesIO
 from SPARQLWrapper import SPARQLWrapper, JSON
 from fuzzywuzzy import process
 
+
+from fastapi import FastAPI
+
+app = FastAPI()
 
 sparql = SPARQLWrapper('https://dbpedia.org/sparql')
 
@@ -371,9 +374,9 @@ TIME"""
                         wiki_knowledge_df = self.filter_wiki_df(wiki_knowledge_df)
                         break
                     else:
-                        image_url = 'ERROR'
-                        comment = 'ERROR'
-                        summary_entity = 'ERROR'
+                        image_url = ''
+                        comment = ''
+                        summary_entity = ''
                         wiki_url = f'https://en.wikipedia.org/wiki/{entity}'
                                         
                         summary_entity = comment
@@ -381,7 +384,7 @@ TIME"""
                             wiki_knowledge_df = pd.read_html(wiki_url)[0]
                             wiki_knowledge_df = self.filter_wiki_df(wiki_knowledge_df)
                         except ValueError:
-                            wiki_knowledge_df = 'ERROR'
+                            wiki_knowledge_df = ''
             self.image_url_list.append(image_url)
             self.comment_list.append(comment)
             self.context_list.append(wiki_knowledge_df)
@@ -391,6 +394,9 @@ TIME"""
         return self.entity_df
 
 # news_article = "Delhi Deputy Chief Minister Manish Sisodia today attacked the BJP leadership for its alleged attempts to buy out MLAs from Telangana Chief Minister KCR's party and demanded the arrest of Union Home Minister Amit Shah, if he is found to be involved."
+@app.get("/get_context/{news_article}")
 def parse(news_article):
-    parsed = ExtractArticleEntities(news_article)
-    return parsed.json
+    if news_article:
+        news_article = news_article.replace('%20',' ')
+        parsed = ExtractArticleEntities(news_article)
+        return parsed.json
