@@ -1,0 +1,594 @@
+Example: 
+
+Delhi Deputy Chief Minister Manish Sisodia today attacked the BJP leadership for its alleged attempts to buy out MLAs from Telangana Chief Minister KCR's party and demanded the arrest of Union Home Minister Amit Shah, if he is found to be involved.
+
+Output: 
+[
+  {
+    "entity": "GPE",
+    "description": "Delhi",
+    "Matched Entity": [
+      "Delhi",
+      "New Delhi",
+      "Delhi Gate, Delhi",
+      "Delhi Sultanate",
+      "Delhi Crime"
+    ],
+    "Views": 61651,
+    "Image_Url": "http://commons.wikimedia.org/wiki/Special:FilePath/Humayun's_Tomb,_Delhi,_India_2019.jpg?width=300",
+    "Summary": "Delhi (/ˈdɛli/; Hindi pronunciation: [ˈdɪlːiː] Dillī; Punjabi pronunciation: [ˈdɪlːiː] Dillī; Urdu pronunciation: [ˈdɛɦliː] Dêhlī), officially the National Capital Territory (NCT) of Delhi, is a city and a union territory of India containing New Delhi, the capital of India. Straddling the Yamuna river, primarily its western or right bank, Delhi shares borders with the state of Uttar Pradesh in the east and with the state of Haryana in the remaining directions. The NCT covers an area of 1,484 square kilometres (573 sq mi). According to the 2011 census, Delhi's city proper population was over 11 million, while the NCT's population was about 16.8 million. Delhi's urban agglomeration, which includes the satellite cities of Ghaziabad, Faridabad, Gurgaon and Noida in an area known as the Nationa",
+    "Context": [
+      {
+        "Attribute": "Country",
+        "Value": "India"
+      },
+      {
+        "Attribute": "Capital, Delhi Sultanate",
+        "Value": "1214"
+      },
+      {
+        "Attribute": "Capital, Mughal Empire",
+        "Value": "1526, intermittently with Agra"
+      },
+      {
+        "Attribute": "Capital, British India",
+        "Value": "1911"
+      },
+      {
+        "Attribute": "New Delhi, capital, Dominion of India",
+        "Value": "1947"
+      },
+      {
+        "Attribute": "New Delhi, capital, Republic of India",
+        "Value": "26 January 1950"
+      },
+      {
+        "Attribute": "Union Territory[1][2]",
+        "Value": "1956"
+      },
+      {
+        "Attribute": "National Capital Territory[3]",
+        "Value": "1 February 1992"
+      },
+      {
+        "Attribute": "• Body",
+        "Value": "Government of Delhi"
+      },
+      {
+        "Attribute": "• Lt. Governor",
+        "Value": "Vinai Kumar Saxena[4]"
+      },
+      {
+        "Attribute": "• Chief Minister",
+        "Value": "Arvind Kejriwal (AAP)"
+      },
+      {
+        "Attribute": "• Deputy Chief Minister",
+        "Value": "Manish Sisodia (AAP)"
+      },
+      {
+        "Attribute": "• Union territory",
+        "Value": "1,484 km2 (573 sq mi)"
+      },
+      {
+        "Attribute": "• Water",
+        "Value": "18 km2 (6.9 sq mi)"
+      },
+      {
+        "Attribute": "Elevation",
+        "Value": "200–250 m (650–820 ft)"
+      },
+      {
+        "Attribute": "• Union territory",
+        "Value": "16787941"
+      },
+      {
+        "Attribute": "• Density",
+        "Value": "11,312/km2 (29,298/sq mi)"
+      },
+      {
+        "Attribute": "• Urban[7]",
+        "Value": "16,349,831 (2nd)"
+      },
+      {
+        "Attribute": "• Megacity[6]",
+        "Value": "11,034,555 (2nd)"
+      },
+      {
+        "Attribute": "• Metro (includes part of NCR (2018)[8]",
+        "Value": "28,514,000 (1st)"
+      },
+      {
+        "Attribute": "• Official",
+        "Value": "HindiEnglish[9]"
+      },
+      {
+        "Attribute": "• Additional official",
+        "Value": "PunjabiUrdu[9]"
+      },
+      {
+        "Attribute": "Time zone",
+        "Value": "UTC+5.30 (IST)"
+      },
+      {
+        "Attribute": "Literacy .mw-parser-output .nobold{font-weight:normal}(2011)",
+        "Value": "86.21%[10]"
+      },
+      {
+        "Attribute": "Sex ratio (2011)",
+        "Value": "868 ♀/1000 ♂[10]"
+      }
+    ]
+  },
+  {
+    "entity": "PERSON",
+    "description": "Amit Shah",
+    "Matched Entity": [
+      "Amit Shah",
+      "Amit Shah (actor)",
+      "Amit Shah (disambiguation)",
+      "Amit Shah (mayor)"
+    ],
+    "Views": 19725,
+    "Image_Url": "http://commons.wikimedia.org/wiki/Special:FilePath/Shri_Amit_Shah_taking_charge_as_the_Union_Minister_for_Home_Affairs,_in_New_Delhi_on_June_01,_2019.jpg?width=300",
+    "Summary": "Amit Anil Chandra Shah (born 22 October 1964) is an Indian politician currently serving as the Minister of Home Affairs and the first Minister of Co-operation of India. He served as the President of the Bharatiya Janata Party (BJP) from 2014 to 2020. He has also served as chairman of the National Democratic Alliance (NDA) since 2014. He was elected to the lower house of Parliament, Lok Sabha, in the 2019 Indian general elections from Gandhinagar. Earlier, he had been elected as a member of the upper house of Parliament, Rajya Sabha, from Gujarat in 2017. Sworn in at the age of 54, he is the youngest serving full-time Home Minister. He is the chief strategist of the BJP and a close aide to Narendra Modi.",
+    "Context": [
+      {
+        "Attribute": "Prime Minister",
+        "Value": "Narendra Modi"
+      },
+      {
+        "Attribute": "Preceded by",
+        "Value": "Rajnath Singh"
+      },
+      {
+        "Attribute": "Prime Minister",
+        "Value": "Narendra Modi"
+      },
+      {
+        "Attribute": "Preceded by",
+        "Value": "office established"
+      },
+      {
+        "Attribute": "Preceded by",
+        "Value": "L. K. Advani"
+      },
+      {
+        "Attribute": "Preceded by",
+        "Value": "Rajnath Singh"
+      },
+      {
+        "Attribute": "Succeeded by",
+        "Value": "Jagat Prakash Nadda"
+      },
+      {
+        "Attribute": "Preceded by",
+        "Value": "L. K. Advani"
+      },
+      {
+        "Attribute": "Constituency",
+        "Value": "Gandhinagar"
+      },
+      {
+        "Attribute": "Majority",
+        "Value": "5,57,014 (43.38%)"
+      },
+      {
+        "Attribute": "Preceded by",
+        "Value": "Dilip Pandya"
+      },
+      {
+        "Attribute": "Succeeded by",
+        "Value": "Subrahmanyam Jaishankar"
+      },
+      {
+        "Attribute": "Constituency",
+        "Value": "Gujarat"
+      },
+      {
+        "Attribute": "Preceded by",
+        "Value": "office established"
+      },
+      {
+        "Attribute": "Succeeded by",
+        "Value": "Kaushik Patel"
+      },
+      {
+        "Attribute": "Constituency",
+        "Value": "Naranpura"
+      },
+      {
+        "Attribute": "Preceded by",
+        "Value": "Harishchandra Lavjibhai Patel"
+      },
+      {
+        "Attribute": "Succeeded by",
+        "Value": "office abolished"
+      },
+      {
+        "Attribute": "Constituency",
+        "Value": "Sarkhej"
+      },
+      {
+        "Attribute": "Departments",
+        "Value": "Home, Law and Justice, Prison, Border Security, Civil Defence, Excise, Home Guards, Transport, Prohibition, Gram Rakshak Dal, Police Housing, Legislative and Parliamentary Affairs"
+      },
+      {
+        "Attribute": "Chief Minister",
+        "Value": "Narendra Modi"
+      },
+      {
+        "Attribute": "Born",
+        "Value": "Amit Anilchandra Shah  (age 58)[1] Bombay, Maharashtra, India"
+      },
+      {
+        "Attribute": "Political party",
+        "Value": "Bharatiya Janata Party"
+      },
+      {
+        "Attribute": "Other political affiliations",
+        "Value": "National Democratic Alliance"
+      },
+      {
+        "Attribute": "Spouse",
+        "Value": "Sonal Shah ​(m. 1987)​"
+      },
+      {
+        "Attribute": "Children",
+        "Value": "Jay Shah"
+      },
+      {
+        "Attribute": "Alma mater",
+        "Value": "Gujarat University (BSc)"
+      },
+      {
+        "Attribute": "Occupation",
+        "Value": "Politician"
+      },
+      {
+        "Attribute": "Website",
+        "Value": "www.amitshah.co.in"
+      }
+    ]
+  },
+  {
+    "entity": "GPE",
+    "description": "Sisodia",
+    "Matched Entity": [
+      "Sisodia Dynasty",
+      "Manish Sisodia",
+      "Prithviraj Sisodia",
+      "Chunda Sisodia",
+      "Luvnith Sisodia"
+    ],
+    "Views": 1090,
+    "Image_Url": "http://commons.wikimedia.org/wiki/Special:FilePath/Rana_kumbha_Birla_mandir_edited.jpg?width=300",
+    "Summary": "The Sisodia is an Indian Rajput dynasty belonging to the clan ruled over the kingdom of Mewar in Rajasthan.The name of the clan is also transliterated as Sesodia, Shishodia, Sishodia, Shishodya, Sisodya, Sisodiya,Sisodia (Ranawat Rajput).",
+    "Context": [
+      {
+        "Attribute": "Suryavanshi",
+        "Value": "Bais Rajputs Rathore Bersal Bargujar Kachwaha Gaur Sisodia (Gahlot) Chandradeva Pundir Gohil"
+      },
+      {
+        "Attribute": "Chandravanshi",
+        "Value": "Banaphar Bhati Chudasama Chandel Jadaun Guleria Jadeja Katoch Tomar Somavanshi"
+      },
+      {
+        "Attribute": "Agnivanshi",
+        "Value": "Parmar Solanki Chauhan Parihar Vaghela"
+      },
+      {
+        "Attribute": "Rishivanshi",
+        "Value": "Gautam Sengar Kanhpuriya"
+      },
+      {
+        "Attribute": "Subclans",
+        "Value": "Gandhavariya Hada Chauhan Naruka Shekhawat Taoni Shaktawat Chundawat Dogra"
+      },
+      {
+        "Attribute": "Subdivision Clans",
+        "Value": "Bundela Harihobans Jaitawat Jasrotia Karadiya Rajput Kinwar Lohtamia Mian Manhas Nanwag Sagar Rajput"
+      }
+    ]
+  },
+  {
+    "entity": "ORG",
+    "description": "Union",
+    "Matched Entity": [
+      "Union",
+      "Soviet Union",
+      "Union territory",
+      "Trade union",
+      "1. FC Union Berlin"
+    ],
+    "Views": 1027,
+    "Image_Url": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Soviet_Union.svg?width=300",
+    "Summary": "The Soviet Union, officially the Union of Soviet Socialist Republics (USSR), was a communist state that spanned Eurasia during its existence from 1922 to 1991. It was nominally a federal union of multiple national republics; in practice its government and economy were highly centralized until its final years. The country was a one-party state (prior to 1990) governed by the Communist Party of the Soviet Union, with Moscow as its capital within its largest and most populous republic, the Russian SFSR. Other major urban centers were Leningrad (Russian SFSR), Kiev (Ukrainian SSR), Minsk (Byelorussian SSR), Tashkent (Uzbek SSR), Alma-Ata (Kazakh SSR) and Novosibirsk (Russian SFSR). It was the largest country in the world, covering over 22,402,200 square kilometres (8,649,500 sq mi), and spanni",
+    "Context": [
+      {
+        "Attribute": "Capitaland largest city",
+        "Value": "Moscow .mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}55°45′N 37°37′E﻿ / ﻿55.750°N 37.617°E"
+      },
+      {
+        "Attribute": "Official languages",
+        "Value": "Russian[b]"
+      },
+      {
+        "Attribute": "Recognised regional languages",
+        "Value": "UkrainianBelarusianUzbekKazakhGeorgianAzerbaijaniLithuanianMoldavianLatvianKyrgyzTajikArmenianTurkmenEstonian"
+      },
+      {
+        "Attribute": "Ethnic groups (1922)",
+        "Value": "64% Russians 2% Tatars 33% Others"
+      },
+      {
+        "Attribute": "Religion",
+        "Value": "Secular state (de jure) State atheism (de facto)"
+      },
+      {
+        "Attribute": "Demonym(s)",
+        "Value": "Soviet"
+      },
+      {
+        "Attribute": "Government",
+        "Value": "See also: Government of the Soviet Union Federal one-party socialist republic (1922–1924) Federal Leninist one-party socialist republic under a totalitarian dictatorship (1924–1927) Federal Marxist–Leninist one-party socialist republic under a Stalinist totalitarian dictatorship[1][2] (1927–1953) Federal Marxist–Leninist one-party directorial parliamentary socialist republic[3] (1953–1990) Federal semi-presidential republic[4] (1990–1991)"
+      },
+      {
+        "Attribute": "• 1922–1924",
+        "Value": "Vladimir Lenin[c]"
+      },
+      {
+        "Attribute": "• 1924–1953",
+        "Value": "Joseph Stalin[d]"
+      },
+      {
+        "Attribute": "• 1953[f]",
+        "Value": "Georgy Malenkov[e]"
+      },
+      {
+        "Attribute": "• 1953–1964",
+        "Value": "Nikita Khrushchev[g]"
+      },
+      {
+        "Attribute": "• 1964–1982",
+        "Value": "Leonid Brezhnev[h]"
+      },
+      {
+        "Attribute": "• 1982–1984",
+        "Value": "Yuri Andropov"
+      },
+      {
+        "Attribute": "• 1984–1985",
+        "Value": "Konstantin Chernenko"
+      },
+      {
+        "Attribute": "• 1985–1991",
+        "Value": "Mikhail Gorbachev[i]"
+      },
+      {
+        "Attribute": "• 1922–1946 (first)",
+        "Value": "Mikhail Kalinin"
+      },
+      {
+        "Attribute": "• 1988–1991 (last)",
+        "Value": "Mikhail Gorbachev"
+      },
+      {
+        "Attribute": "• 1922–1924 (first)",
+        "Value": "Vladimir Lenin"
+      },
+      {
+        "Attribute": "• 1991 (last)",
+        "Value": "Ivan Silayev"
+      },
+      {
+        "Attribute": "Legislature",
+        "Value": "Congress of Soviets (1922–1936)[j] Supreme Soviet (1936–1991)"
+      },
+      {
+        "Attribute": "• Upper house",
+        "Value": "Soviet of Nationalities (1936–1991) Soviet of Republics (1991)"
+      },
+      {
+        "Attribute": "• Lower house",
+        "Value": "Soviet of the Union (1936–1991)"
+      },
+      {
+        "Attribute": "Historical era",
+        "Value": "Interwar period • World War II • Cold War"
+      },
+      {
+        "Attribute": "• October Revolution",
+        "Value": "7 November 1917"
+      },
+      {
+        "Attribute": "• Treaty of Creation",
+        "Value": "30 December 1922"
+      },
+      {
+        "Attribute": "• End of Russian Civil War",
+        "Value": "16 June 1923"
+      },
+      {
+        "Attribute": "• First constitution",
+        "Value": "31 January 1924"
+      },
+      {
+        "Attribute": "• Second constitution",
+        "Value": "5 December 1936"
+      },
+      {
+        "Attribute": "• Westward expansion",
+        "Value": "1939–1940"
+      },
+      {
+        "Attribute": "• Great Patriotic War",
+        "Value": "1941–1945"
+      },
+      {
+        "Attribute": "• Admission to UN",
+        "Value": "24 October 1945"
+      },
+      {
+        "Attribute": "• De-Stalinization",
+        "Value": "25 February 1956"
+      },
+      {
+        "Attribute": "• Last constitution",
+        "Value": "9 October 1977"
+      },
+      {
+        "Attribute": "• Secession of Lithuania",
+        "Value": "11 March 1990"
+      },
+      {
+        "Attribute": "• August Coup",
+        "Value": "19–22 August 1991"
+      },
+      {
+        "Attribute": "• Belovezh Accords",
+        "Value": "8 December 1991[k]"
+      },
+      {
+        "Attribute": "• Dissolution",
+        "Value": "26 December 1991[l]"
+      },
+      {
+        "Attribute": "• Total",
+        "Value": "22,402,200 km2 (8,649,500 sq mi) (1st)"
+      },
+      {
+        "Attribute": "• Water",
+        "Value": "2,767,198 km2 (1,068,421 sq mi)"
+      },
+      {
+        "Attribute": "• Water (%)",
+        "Value": "12.3"
+      },
+      {
+        "Attribute": "• 1989 census",
+        "Value": "286,730,819[5] (3rd)"
+      },
+      {
+        "Attribute": "• Density",
+        "Value": "12.7/km2 (32.9/sq mi)"
+      },
+      {
+        "Attribute": "GDP .mw-parser-output .nobold{font-weight:normal}(PPP)",
+        "Value": "1990 estimate"
+      },
+      {
+        "Attribute": "• Total",
+        "Value": "$2.7 trillion[6] (2nd)"
+      },
+      {
+        "Attribute": "• Per capita",
+        "Value": "$9,000"
+      },
+      {
+        "Attribute": "GDP (nominal)",
+        "Value": "1990 estimate"
+      },
+      {
+        "Attribute": "• Total",
+        "Value": "$2.7 trillion[6] (2nd)"
+      },
+      {
+        "Attribute": "• Per capita",
+        "Value": "$9,000 (28th)"
+      },
+      {
+        "Attribute": "Gini (1989)",
+        "Value": "0.275 low"
+      },
+      {
+        "Attribute": "HDI (1990 formula)",
+        "Value": "0.920[7] very high"
+      },
+      {
+        "Attribute": "Currency",
+        "Value": "Soviet ruble (Rbl) (SUR)"
+      },
+      {
+        "Attribute": "Time zone",
+        "Value": "(UTC+2 to +12)"
+      },
+      {
+        "Attribute": "Driving side",
+        "Value": "right"
+      },
+      {
+        "Attribute": "Calling code",
+        "Value": "+7"
+      },
+      {
+        "Attribute": "ISO 3166 code",
+        "Value": "SU"
+      },
+      {
+        "Attribute": "Internet TLD",
+        "Value": ".su[m]"
+      },
+      {
+        "Attribute": "Preceded by",
+        "Value": "Succeeded by"
+      },
+      {
+        "Attribute": "1922: Russian SFSR Ukrainian SSR Byelorussian SSR Transcaucasian SFSR 1924: Bukharan SSR Khorezm SSR 1939: Poland (portion) 1940: Finland (portion) Romania (portion) Estonia Latvia Lithuania 1944: Tuva 1945: Germany (portion) Japan (portion) 1946: Czechoslovakia (portion)",
+        "Value": "1990: Lithuania 1991: Georgia Estonia Latvia Ukraine Moldova Kyrgyzstan Uzbekistan Tajikistan Armenia Azerbaijan Turkmenistan Belarus Russia Kazakhstan"
+      }
+    ]
+  },
+  {
+    "entity": "PERSON",
+    "description": "Manish",
+    "Matched Entity": [
+      "Manish",
+      "Manish Malhotra",
+      "Manish Chaudhari",
+      "Manish Paul",
+      "Manish Dayal"
+    ],
+    "Views": 701,
+    "Image_Url": "http://commons.wikimedia.org/wiki/Special:FilePath/Manish_Malhotra_graces_the_HT_Style_Awards_2018.jpg?width=300",
+    "Summary": "Manish Malhotra (born December 5, 1966) is an Indian fashion designer, couturier, costume stylist, entrepreneur, filmmaker, revivalist based in Mumbai, India. The founder of the eponymous label, Manish Malhotra, has been deeply entrenched in the twin worlds of fashion and film for the past three decades. He has styled and designed for more than thousands of movies and won numerous awards. He is known for redefining and modernizing how actors look in Indian movies and reviving some of the country's forgotten crafts.",
+    "Context": [
+      {
+        "Attribute": "Born",
+        "Value": "(age 55) Bombay, Maharashtra, India[1]"
+      },
+      {
+        "Attribute": "Nationality",
+        "Value": "Indian"
+      },
+      {
+        "Attribute": "Alma mater",
+        "Value": "Elphinstone College"
+      },
+      {
+        "Attribute": "Occupation",
+        "Value": "Fashion designer"
+      },
+      {
+        "Attribute": "Parent(s)",
+        "Value": "Suraj Prakash Malhotra, Garima Oberoi"
+      },
+      {
+        "Attribute": "Website",
+        "Value": "manishmalhotra.in"
+      }
+    ]
+  },
+  {
+    "entity": "ORG",
+    "description": "BJP",
+    "Matched Entity": [
+      "BJP (disambiguation)",
+      "BJP IT Cell"
+    ],
+    "Views": 108,
+    "Image_Url": "",
+    "Summary": "",
+    "Context": ""
+  }
+]
