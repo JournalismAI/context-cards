@@ -30,3 +30,7 @@ Image_Url : (str)
 Summary : (str)
 Context: (json str)
  
+Installation:
+    You can install this package with 
+        pip install <path to whl file>
+        
